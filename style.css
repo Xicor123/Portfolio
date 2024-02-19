@@ -49,6 +49,7 @@ header{
     border-radius: 60% 40% 40% 60% / 60% 40% 60% 40%;
     overflow: hidden;
     animation: flow 4s infinite ease-in-out;
+    box-shadow: 10px 5px 80px rgb(98, 66, 139);
 }
 .right-section img{
     width:100%;
