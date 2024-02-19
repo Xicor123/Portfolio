@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(18, 3, 54);
+    color: white;
+}
+header{
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(28, 7, 66);
+    border: 2px solid rgb(2, 23, 29);
+    position: sticky;
+    top:0px;
+}
+#element{
+    color: rgb(60, 34, 129);
+}
+.left-nav{
+    font-size:25px;
+    margin-right: 200px;
+}
+.right-nav ol{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.right-nav ol li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+.right-nav ol li a:hover{
+    color: rgb(133, 133, 184);
+    font-size: 1.02rem;
+}
+.first-section{
+    margin:20px;
+    display: flex;
+    justify-content: space-around;
+}
+.right-section{
+    margin: 20px;
+    height: 380px;
+    width: 320px;
+    border-radius: 60% 40% 40% 60% / 60% 40% 60% 40%;
+    overflow: hidden;
+    animation: flow 4s infinite ease-in-out;
+}
+.right-section img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+@keyframes flow{
+    0% {
+        border-radius:60% 40% 40% 60% / 60% 40% 60% 40%;
+    }
+    35% {
+        border-radius: 80% 70% 60% 60% / 80% 70% 60% 60%;
+    }
+    70% {
+        border-radius: 70% 90% 60% 70% / 80% 90% 50% 90%;
+    }
+    100% {
+        border-radius: 60% 40% 40% 60% / 60% 40% 60% 40%;
+    }
+}
+.left-section{
+    width:400px;
+    font-size: 40px;
+    margin-top: 90px;
+}
+.left-section #name{
+    color:rgb(84, 40, 204);
+}
+main hr{
+    margin:70px 70px 50px;
+    border:0px;
+    background: rgb(48, 22, 143);
+    height:2px;
+}
+.btn{
+    margin-top:50px
+}
+.btn{
+    margin-top: 60px;
+    width: 420px;
+}
+.btns{
+    height:50px;
+    width: 200px;
+    background-color: rgb(38, 16, 59);
+    color:white;
+    border:5px solid rgba(48, 22, 143,0.3);
+}
+.btns:hover{
+    background-color: rgb(146, 123, 199);
+    color:black;
+    cursor: pointer;
+}
